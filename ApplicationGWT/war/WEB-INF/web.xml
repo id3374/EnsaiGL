@@ -8,17 +8,18 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>app.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>web.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/applicationgwt/greet</url-pattern>
+    <url-pattern>/appliwebgl/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>ApplicationGWT.html</welcome-file>
+    <welcome-file>AppliWebGL.html</welcome-file>
   </welcome-file-list>
 
 </web-app>
+
