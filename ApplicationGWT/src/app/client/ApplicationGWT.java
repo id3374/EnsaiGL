@@ -1,5 +1,5 @@
 package app.client;
-
+/*mon truc de merde*/
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
