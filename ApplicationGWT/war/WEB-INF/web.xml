@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>web.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>app.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
@@ -18,7 +18,7 @@
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>AppliWebGL.html</welcome-file>
+    <welcome-file>ApplicationGWT.html</welcome-file>
   </welcome-file-list>
 
 </web-app>
